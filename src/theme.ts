@@ -56,6 +56,13 @@ const colorConfigs: { [key: string]: ColorConfigInterface } = {
     backgroundColor: '#797979',
     buttonColor: 'secondary',
   },
+  'palette-8. cohesity-herobanner-h1': {
+    headlineColor: '#00FD45',
+    textColor: '#00FD45',
+    backgroundColor: '#00FD45',
+    buttonColor: 'primary',
+  },
+
 };
 
 export const getColorConfigFromPalette = (palette: string): ColorConfigInterface => {
